@@ -13,434 +13,444 @@
     <div id="container">
       <div id="sidebar">
         <div id="logo">
-          <a href="index.html" rel="homepage">
-            <span>
-              <iconify-icon
-                icon="flowbite:fingerprint-outline"
-                style="color: #1a2e05"
-              ></iconify-icon>
-            </span>
-            <span>Dashboard</span>
-          </a>
+          <span>
+            <iconify-icon
+              id="logo_print"
+              icon="flowbite:fingerprint-outline"
+              style="color: #53ff14"
+              width="24"
+              height="24"
+            >
+            </iconify-icon>
+          </span>
+          <h3>Dashboard</h3>
         </div>
 
-        <div id="navigation-section">
+        <div id="nav-section">
           <a href="#"><span>Home</span></a>
           <a href="#"><span>Profile</span></a>
           <a href="#"
-            ><span>Messages</span><span id="span-alert" class="toggle"></span
-          ></a>
+            >Messages<span id="span-alert" class="toggle-alert">2</span></a
+          >
           <a href="#"><span>History</span></a>
           <a href="#"><span>Tasks</span></a>
           <a href="#"><span>Communities</span></a>
-        </div>
-        <div id="settings-section">
           <a href="#"><span>Settings</span></a>
           <a href="#"><span>Support</span></a>
           <a href="#"><span>Privacy</span></a>
         </div>
       </div>
 
-      <div id="profile-head">
-        <label for="search-bar">
-          <iconify-icon
-            icon="flowbite:search-outline"
-            style="color: black"
-          ></iconify-icon>
-        </label>
-        <input type="search" id="search-bar" name="search-bar" />
-
-        <div id="widget-panel">
-          <span id="notification" class="toggle">
-            <iconify-icon
-              icon="mdi:bell-ring-outline"
-              style="color: black"
-            ></iconify-icon>
-          </span>
-          <div id="profile-img">
-            <img
-              src="./assets/youngThug.jpeg"
-              alt="young thugger posing head in palms"
-              id="profile-pic"
-              style="height: 6em; width: 7em"
+      <div id="main-content">
+        <div id="profile naviagation">
+          <form action="#url" method="get">
+            <label for="search-bar">
+              <iconify-icon
+                icon="flowbite:search-outline"
+                style="color: black"
+              ></iconify-icon>
+            </label>
+            <input
+              title="search-bar"
+              placeholder="search..."
+              type="search"
+              id="search-bar"
+              name="search-bar"
             />
-          </div>
-          <div id="username">
-            <span>Young Thugger</span>
-          </div>
-        </div>
+          </form>
 
-        <div id="profile-panel">
-          <div id="profile-img">
-            <img
-              src="./assets/youngThug.jpeg"
-              alt="young thugger posing head in palms"
-              id="profile-pic"
-              style="height: 6em; width: 7em"
-            />
-          </div>
-
-          <div id="username greet">
-            <span
-              ><h4>Hi there,</h4>
-              <h2>Young Thugger</h2>
-              <h2>(@Thugger)</h2></span
-            >
-          </div>
-
-          <div id="post-upload">
-            <button class="btn">New</button>
-            <button class="btn">Upload</button>
-            <button class="btn">Share</button>
-          </div>
-        </div>
-      </div>
-
-      <div id="page-content content">
-        <div id="projects">
-          <h2>Your Projects</h2>
-
-          <div class="project-card">
-            <h4>Super Cool Projet</h4>
-            <span
-              >sed tempus can giu yup gio hus eio. muy in hopi fusi dun boui gup
-              dan atta.</span
-            >
-            <div class="card-toggles">
-              <button
-                class="btn"
-                name="mark-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="fluent:star-add-20-regular"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="view-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="game-icons:read"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="fork-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="tdesign:fork"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
+          <div id="profile-panel">
+            <span id="notification" class="toggle">
+              <iconify-icon
+                icon="mdi:bell-ring-outline"
+                style="color: black"
+              ></iconify-icon>
+            </span>
+            <div id="profile-img">
+              <img
+                src="./assets/youngThug.jpeg"
+                alt="young thugger posing head in palms"
+                id="profile-pic"
+                style="height: 6em; width: 7em"
+              />
+            </div>
+            <div id="username">
+              <span>Young Thugger</span>
             </div>
           </div>
 
-          <div class="project-card">
-            <h4>Less Cool Project</h4>
-            <span
-              >Nullum condimentum ipsium ut lectus vehicula consector. Quisque
-              sed dolor tincidunt, consector sapien et, facilisis dolor. Duis
-              sem purus, dignissim ut sapien in, varius pelientesque
-              lacus.</span
-            >
-            <div class="card-toggles">
-              <button
-                class="btn"
-                name="mark-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="fluent:star-add-20-regular"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="view-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="game-icons:read"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="fork-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="tdesign:fork"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
+          <div id="post-panel">
+            <div id="profile-img">
+              <img
+                src="./assets/youngThug.jpeg"
+                alt="young thugger posing head in palms"
+                id="profile-pic"
+                style="height: 6em; width: 7em"
+              />
             </div>
-          </div>
 
-          <div class="project-card">
-            <h4>Impossible App</h4>
-            <span
-              >In hac habitasse Plateu dictate. Vivamus docutm rutrun acru, a
-              placid veitit saggy id.</span
-            >
-            <div class="card-toggles">
-              <button
-                class="btn"
-                name="mark-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
+            <div id="username greet">
+              <span
+                ><h4>Hi there,</h4>
+                <h2>Young Thugger</h2>
+                <h2>(@Thugger)</h2></span
               >
-                <iconify-icon
-                  icon="fluent:star-add-20-regular"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="view-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="game-icons:read"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="fork-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="tdesign:fork"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
             </div>
-          </div>
 
-          <div class="project-card">
-            <h4>Easy Prep App</h4>
-            <span
-              >Etiam Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus
-              nullam. Viverra orci sagittis eu volutpat odio facilisis mauris.
-              Sapien faucibus et molestie ac feugiat sed lectus vestibulum
-              mattis. Mauris rhoncus aenean vel elit scelerisque mauris
-              pellentesque. Sapien faucibus et molestie ac feugiat sed lectus
-              vestibulum.</span
-            >
-            <div class="card-toggles">
-              <button
-                class="btn"
-                name="mark-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="fluent:star-add-20-regular"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="view-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="game-icons:read"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="fork-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="tdesign:fork"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <h4>Ad Blocker</h4>
-            <span
-              >Quise eget rutrumm nisi. Nam augue justo, cursus vita a placenta
-              vel, pharapumpum henreta. Aliquro sed malsedo suade sued henreit
-              felis navidad babi. Aliquam sumpi dunbi.</span
-            >
-            <div class="card-toggles">
-              <button
-                class="btn"
-                name="mark-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="fluent:star-add-20-regular"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="view-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="game-icons:read"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="fork-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="tdesign:fork"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <h4>Money Maker</h4>
-            <span
-              >Presente de muni fundido ac effictor. fringula vestibulim topar.
-              Curabulator dignisium nisi in torture turu.</span
-            >
-            <div class="card-toggles">
-              <button
-                class="btn"
-                name="mark-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="fluent:star-add-20-regular"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="view-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="game-icons:read"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
-              <button
-                class="btn"
-                name="fork-btn btn"
-                type="button"
-                value="fork"
-                onclick=""
-              >
-                <iconify-icon
-                  icon="tdesign:fork"
-                  style="color: black"
-                ></iconify-icon>
-              </button>
+            <div id="post-upload">
+              <button class="btn">New</button>
+              <button class="btn">Upload</button>
+              <button class="btn">Share</button>
             </div>
           </div>
         </div>
 
-        <div id="announcements">
-          <h5>Announcements</h5>
-          <div id="announcements-card">
-            <div class="announcement">
-              <h5>Site Maintenance</h5>
-              <p>
-                Vestible cordinate usin poub tellus lacus, in accuraten elit
-                maximus lot ac. Donec, hendrix so nessime congue.
-              </p>
+        <div id="profile-content">
+          <div id="projects">
+            <h2>Your Projects</h2>
+
+            <div class="project-card">
+              <h4>Super Cool Projet</h4>
+              <span
+                >sed tempus can giu yup gio hus eio. muy in hopi fusi dun boui
+                gup dan atta.</span
+              >
+              <div class="card-toggles">
+                <button
+                  class="btn"
+                  name="mark-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="fluent:star-add-20-regular"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="view-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="game-icons:read"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="fork-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="tdesign:fork"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+              </div>
             </div>
-            <div class="announcement">
-              <h5>Community Share Day</h5>
-              <p>
-                Nme vet mainuski rutrumm rullia eu mare libre. Aliquam dictum
-                accumsan portitor.
-              </p>
+
+            <div class="project-card">
+              <h4>Less Cool Project</h4>
+              <span
+                >Nullum condimentum ipsium ut lectus vehicula consector. Quisque
+                sed dolor tincidunt, consector sapien et, facilisis dolor. Duis
+                sem purus, dignissim ut sapien in, varius pelientesque
+                lacus.</span
+              >
+              <div class="card-toggles">
+                <button
+                  class="btn"
+                  name="mark-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="fluent:star-add-20-regular"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="view-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="game-icons:read"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="fork-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="tdesign:fork"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+              </div>
             </div>
-            <div class="announcement">
-              <h5>Updated Privacy Policy</h5>
-              <p>
-                Phasellus efficitur misi eget elit conesectur, eget condiments
-                unutm ante acutur. Crass fringil sagittus sem in mattis.
-              </p>
+
+            <div class="project-card">
+              <h4>Impossible App</h4>
+              <span
+                >In hac habitasse Plateu dictate. Vivamus docutm rutrun acru, a
+                placid veitit saggy id.</span
+              >
+              <div class="card-toggles">
+                <button
+                  class="btn"
+                  name="mark-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="fluent:star-add-20-regular"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="view-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="game-icons:read"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="fork-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="tdesign:fork"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <h4>Easy Prep App</h4>
+              <span
+                >Etiam Ipsum faucibus vitae aliquet nec ullamcorper sit amet
+                risus nullam. Viverra orci sagittis eu volutpat odio facilisis
+                mauris. Sapien faucibus et molestie ac feugiat sed lectus
+                vestibulum mattis. Mauris rhoncus aenean vel elit scelerisque
+                mauris pellentesque. Sapien faucibus et molestie ac feugiat sed
+                lectus vestibulum.</span
+              >
+              <div class="card-toggles">
+                <button
+                  class="btn"
+                  name="mark-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="fluent:star-add-20-regular"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="view-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="game-icons:read"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="fork-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="tdesign:fork"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <h4>Ad Blocker</h4>
+              <span
+                >Quise eget rutrumm nisi. Nam augue justo, cursus vita a
+                placenta vel, pharapumpum henreta. Aliquro sed malsedo suade
+                sued henreit felis navidad babi. Aliquam sumpi dunbi.</span
+              >
+              <div class="card-toggles">
+                <button
+                  class="btn"
+                  name="mark-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="fluent:star-add-20-regular"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="view-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="game-icons:read"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="fork-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="tdesign:fork"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <h4>Money Maker</h4>
+              <span
+                >Presente de muni fundido ac effictor. fringula vestibulim
+                topar. Curabulator dignisium nisi in torture turu.</span
+              >
+              <div class="card-toggles">
+                <button
+                  class="btn"
+                  name="mark-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="fluent:star-add-20-regular"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="view-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="game-icons:read"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+                <button
+                  class="btn"
+                  name="fork-btn btn"
+                  type="button"
+                  value="fork"
+                  onclick=""
+                >
+                  <iconify-icon
+                    icon="tdesign:fork"
+                    style="color: black"
+                  ></iconify-icon>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div id="trending">
-          <div class="trends">
-            <div class="trend">
-              <img src="" alt="" />
-              <span></span>
-              <p></p>
+          <div id="announcements">
+            <h5>Announcements</h5>
+            <div id="announcements-card">
+              <div class="announcement">
+                <h5>Site Maintenance</h5>
+                <p>
+                  Vestible cordinate usin poub tellus lacus, in accuraten elit
+                  maximus lot ac. Donec, hendrix so nessime congue.
+                </p>
+              </div>
+              <div class="announcement">
+                <h5>Community Share Day</h5>
+                <p>
+                  Nme vet mainuski rutrumm rullia eu mare libre. Aliquam dictum
+                  accumsan portitor.
+                </p>
+              </div>
+              <div class="announcement">
+                <h5>Updated Privacy Policy</h5>
+                <p>
+                  Phasellus efficitur misi eget elit conesectur, eget condiments
+                  unutm ante acutur. Crass fringil sagittus sem in mattis.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="trends">
-            <div class="trend">
-              <img src="" alt="" />
-              <span></span>
-              <p></p>
+          <div id="trending">
+            <div class="trends">
+              <div class="trend">
+                <img src="" alt="" />
+                <span></span>
+                <p></p>
+              </div>
             </div>
-          </div>
 
-          <div class="trends">
-            <div class="trend">
-              <img src="" alt="" />
-              <span></span>
-              <p></p>
+            <div class="trends">
+              <div class="trend">
+                <img src="" alt="" />
+                <span></span>
+                <p></p>
+              </div>
             </div>
-          </div>
 
-          <div class="trends">
-            <div class="trend">
-              <img src="" alt="" />
-              <span></span>
-              <p></p>
+            <div class="trends">
+              <div class="trend">
+                <img src="" alt="" />
+                <span></span>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="trends">
+              <div class="trend">
+                <img src="" alt="" />
+                <span></span>
+                <p></p>
+              </div>
             </div>
           </div>
         </div>
