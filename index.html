@@ -30,8 +30,8 @@
           <a href="#"><span>Home</span></a>
           <a href="#"><span>Profile</span></a>
           <a href="#"
-            >Messages<span id="span-alert" class="toggle-alert">2</span></a
-          >
+            >Messages<span id="span-alert" class="toggle-alert"></span
+          ></a>
           <a href="#"><span>History</span></a>
           <a href="#"><span>Tasks</span></a>
           <a href="#"><span>Communities</span></a>
@@ -42,12 +42,13 @@
       </div>
 
       <div id="main-content">
-        <div id="profile naviagation">
+        <div id="profile-nav">
           <form action="#url" method="get">
             <label for="search-bar">
               <iconify-icon
                 icon="flowbite:search-outline"
-                style="color: black"
+                style="color: #64748b"
+                class="icon"
               ></iconify-icon>
             </label>
             <input
@@ -60,47 +61,47 @@
           </form>
 
           <div id="profile-panel">
-            <span id="notification" class="toggle">
+            <a id="notification" class="toggle" href="./index.html">
               <iconify-icon
                 icon="mdi:bell-ring-outline"
                 style="color: black"
+                class="icon icon-bell"
               ></iconify-icon>
-            </span>
-            <div id="profile-img">
+            </a>
+            <div class="profile-img">
               <img
                 src="./assets/youngThug.jpeg"
                 alt="young thugger posing head in palms"
-                id="profile-pic"
-                style="height: 6em; width: 7em"
+                class="profile-pic"
+                style="height: 2em; width: 2em"
               />
             </div>
             <div id="username">
-              <span>Young Thugger</span>
+              <span class="name">Young Thugger</span>
             </div>
           </div>
 
           <div id="post-panel">
-            <div id="profile-img">
+            <div class="profile-img">
               <img
                 src="./assets/youngThug.jpeg"
                 alt="young thugger posing head in palms"
-                id="profile-pic"
-                style="height: 6em; width: 7em"
+                class="profile-pic two"
+                style="height: 4em; width: 4.5em"
               />
             </div>
 
-            <div id="username greet">
-              <span
+            <div id="username-greet">
+              <span id="username-greeting"
                 ><h4>Hi there,</h4>
-                <h2>Young Thugger</h2>
-                <h2>(@Thugger)</h2></span
-              >
+                <h3 class="name"><i>Young Thugger</i>&nbsp;(@Thugger)</h3>
+              </span>
             </div>
 
             <div id="post-upload">
-              <button class="btn">New</button>
-              <button class="btn">Upload</button>
-              <button class="btn">Share</button>
+              <button class="profile-btn">New</button>
+              <button class="profile-btn">Upload</button>
+              <button class="profile-btn">Share</button>
             </div>
           </div>
         </div>
