@@ -99,7 +99,6 @@
             </div>
 
             <div id="post-upload">
-              <button class="profile-btn">New</button>
               <button class="profile-btn">Upload</button>
               <button class="profile-btn">Share</button>
             </div>
@@ -107,12 +106,11 @@
         </div>
 
         <div id="profile-content">
+          <h3 id="projects-heading">Your Projects</h3>
           <div id="projects">
-            <h2>Your Projects</h2>
-
             <div class="project-card">
-              <h4>Super Cool Projet</h4>
-              <span
+              <h4 class="project-name">Super Cool Projet</h4>
+              <span class="project-description"
                 >sed tempus can giu yup gio hus eio. muy in hopi fusi dun boui
                 gup dan atta.</span
               >
@@ -157,8 +155,8 @@
             </div>
 
             <div class="project-card">
-              <h4>Less Cool Project</h4>
-              <span
+              <h4 class="project-name">Less Cool Project</h4>
+              <span class="project-description"
                 >Nullum condimentum ipsium ut lectus vehicula consector. Quisque
                 sed dolor tincidunt, consector sapien et, facilisis dolor. Duis
                 sem purus, dignissim ut sapien in, varius pelientesque
@@ -205,8 +203,8 @@
             </div>
 
             <div class="project-card">
-              <h4>Impossible App</h4>
-              <span
+              <h4 class="project-name">Impossible App</h4>
+              <span class="project-description"
                 >In hac habitasse Plateu dictate. Vivamus docutm rutrun acru, a
                 placid veitit saggy id.</span
               >
@@ -251,14 +249,12 @@
             </div>
 
             <div class="project-card">
-              <h4>Easy Prep App</h4>
-              <span
+              <h4 class="project-name">Easy Prep App</h4>
+              <span class="project-description"
                 >Etiam Ipsum faucibus vitae aliquet nec ullamcorper sit amet
                 risus nullam. Viverra orci sagittis eu volutpat odio facilisis
                 mauris. Sapien faucibus et molestie ac feugiat sed lectus
-                vestibulum mattis. Mauris rhoncus aenean vel elit scelerisque
-                mauris pellentesque. Sapien faucibus et molestie ac feugiat sed
-                lectus vestibulum.</span
+                vestibulum.</span
               >
               <div class="card-toggles">
                 <button
@@ -301,8 +297,8 @@
             </div>
 
             <div class="project-card">
-              <h4>Ad Blocker</h4>
-              <span
+              <h4 class="project-name">Ad Blocker</h4>
+              <span class="project-description"
                 >Quise eget rutrumm nisi. Nam augue justo, cursus vita a
                 placenta vel, pharapumpum henreta. Aliquro sed malsedo suade
                 sued henreit felis navidad babi. Aliquam sumpi dunbi.</span
@@ -348,8 +344,8 @@
             </div>
 
             <div class="project-card">
-              <h4>Money Maker</h4>
-              <span
+              <h4 class="project-name">Money Maker</h4>
+              <span class="project-description"
                 >Presente de muni fundido ac effictor. fringula vestibulim
                 topar. Curabulator dignisium nisi in torture turu.</span
               >
@@ -393,64 +389,120 @@
               </div>
             </div>
           </div>
+          <div id="a-t-container">
+            <div id="announcements">
+              <h3 id="announcement-head">Announcements</h3>
+              <div id="announcement-card">
+                <div class="announcement">
+                  <h5>Site Maintenance</h5>
+                  <p>
+                    Vestible cordinate usin poub tellus lacus, in accuraten elit
+                    maximus lot ac. Donec, hendrix so nessime congue.
+                  </p>
+                  &nbsp;
+                  <hr />
+                </div>
+                <div class="announcement">
+                  <h5>Community Share Day</h5>
+                  <p>
+                    Nme vet mainuski rutrumm rullia eu mare libre. Aliquam
+                    dictum accumsan portitor.
+                  </p>
 
-          <div id="announcements">
-            <h5>Announcements</h5>
-            <div id="announcements-card">
-              <div class="announcement">
-                <h5>Site Maintenance</h5>
-                <p>
-                  Vestible cordinate usin poub tellus lacus, in accuraten elit
-                  maximus lot ac. Donec, hendrix so nessime congue.
-                </p>
-              </div>
-              <div class="announcement">
-                <h5>Community Share Day</h5>
-                <p>
-                  Nme vet mainuski rutrumm rullia eu mare libre. Aliquam dictum
-                  accumsan portitor.
-                </p>
-              </div>
-              <div class="announcement">
-                <h5>Updated Privacy Policy</h5>
-                <p>
-                  Phasellus efficitur misi eget elit conesectur, eget condiments
-                  unutm ante acutur. Crass fringil sagittus sem in mattis.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div id="trending">
-            <div class="trends">
-              <div class="trend">
-                <img src="" alt="" />
-                <span></span>
-                <p></p>
+                  <hr />
+                </div>
+                <div class="announcement">
+                  <h5>Updated Privacy Policy</h5>
+                  <p>
+                    Phasellus efficitur misi eget elit conesectur, eget
+                    condiments unutm ante acutur. Crass fringil sagittus sem in
+                    mattis.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div class="trends">
-              <div class="trend">
-                <img src="" alt="" />
-                <span></span>
-                <p></p>
-              </div>
-            </div>
+            <div id="trend-container">
+              <h4 id="trend-head">Trends</h4>
+              <div id="trending">
+                <div class="trends">
+                  <div class="trend">
+                    <img src="" alt="" />
+                    <span></span>
+                    <p></p>
+                  </div>
+                </div>
 
-            <div class="trends">
-              <div class="trend">
-                <img src="" alt="" />
-                <span></span>
-                <p></p>
-              </div>
-            </div>
+                <div class="trends">
+                  <div id="post-panel">
+                    <div class="profile-img">
+                      <img
+                        src="./assets/youngThug.jpeg"
+                        alt="young thugger posing head in palms"
+                        class="profile-pic two"
+                        style="height: 4em; width: 4.5em"
+                      />
+                    </div>
 
-            <div class="trends">
-              <div class="trend">
-                <img src="" alt="" />
-                <span></span>
-                <p></p>
+                    <div id="username-greet">
+                      <span id="username-greeting"
+                        ><h4>Your friend,</h4>
+                        <h3 class="name">
+                          <i>Young Thugger</i>&nbsp;(@Thugger)
+                        </h3>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                &nbsp;
+                <hr />
+                &nbsp;
+
+                <div class="trends">
+                  <div id="post-panel">
+                    <div class="profile-img">
+                      <img
+                        src="./assets/youngThug.jpeg"
+                        alt="young thugger posing head in palms"
+                        class="profile-pic two"
+                        style="height: 4em; width: 4.5em"
+                      />
+                    </div>
+
+                    <div id="username-greet">
+                      <span id="username-greeting"
+                        ><h4>Your friend,</h4>
+                        <h3 class="name">
+                          <i>Young Thugger</i>&nbsp;(@Thugger)
+                        </h3>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                &nbsp;
+                <hr />
+                &nbsp;
+                <div class="trends">
+                  <div id="post-panel">
+                    <div class="profile-img">
+                      <img
+                        src="./assets/youngThug.jpeg"
+                        alt="young thugger posing head in palms"
+                        class="profile-pic two"
+                        style="height: 4em; width: 4.5em"
+                      />
+                    </div>
+
+                    <div id="username-greet">
+                      <span id="username-greeting"
+                        ><h4>Your friend,</h4>
+                        <h3 class="name">
+                          <i>Young Thugger</i>&nbsp;(@Thugger)
+                        </h3>
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

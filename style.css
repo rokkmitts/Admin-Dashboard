@@ -5,7 +5,8 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-body {
+body,
+html {
   min-height: 100vh;
 }
 
@@ -35,6 +36,7 @@ body {
   text-decoration: none;
   color: #cbd5e1;
   font-size: 1.5rem;
+  margin-top: 20px;
 }
 
 #nav-section {
@@ -83,7 +85,9 @@ input {
 }
 
 form {
-  grid-column: 1 /6;
+  grid-column: 1 / 5;
+  min-width: 220px;
+  max-width: 1248px;
 }
 
 .profile-btn {
@@ -91,7 +95,7 @@ form {
 }
 
 #profile-panel {
-  grid-column: 8;
+  grid-column: 7;
   display: flex;
 }
 
@@ -103,7 +107,11 @@ form {
 
 #post-upload {
   display: flex;
-  margin: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 5px;
   height: fit-content;
 }
 
@@ -119,4 +127,87 @@ form {
   background-color: #1e293b;
   color: #ffff;
   font-weight: 400;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#projects-heading {
+  margin: 30px 0 0 30px;
+}
+
+.project-card {
+  width: 300px;
+  height: 150px;
+  font-size: 12px;
+  margin: 30px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 15px 105px 30px;
+  grid-template-columns: 225px 75px;
+  box-shadow: 2px 2px 2px 2px #1e293b86;
+}
+
+.project-name {
+  margin: 5px 0 5px 5px;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.project-description {
+  margin: 5px 0 5px 5px;
+  grid-row: 2;
+  grid-column: 1 / 2;
+}
+
+.card-toggles {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.btn {
+  border: none;
+  background: none;
+}
+
+#a-t-container {
+  display: flex;
+}
+
+#announcement-head {
+  margin-left: 30px;
+}
+
+#announcement-card {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #1e293b86;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  max-width: 300px;
+}
+
+.announcement {
+  margin: 15px;
+}
+
+#trend-head {
+  margin: 0 0 30px 460px;
+}
+
+#trending {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #1e293b86;
+  margin-left: 115px;
+  padding-bottom: 20px;
+  width: 750px;
+}
+
+.trends {
+  padding-left: 15px;
 }
